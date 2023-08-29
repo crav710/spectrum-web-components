@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.38.0 (2023-08-29)
+
+### Bug Fixes
+
+-   **base:** ensure streaming listener "streams" on the animation frame ([1478db1](https://github.com/adobe/spectrum-web-components/commit/1478db115cfe3aa9278bcfafb57b1d8b77d25b32))
+
+### Features
+
+-   **base:** add static version property ([8557302](https://github.com/adobe/spectrum-web-components/commit/855730231f2ed7599f6b0de1437f5f08851f4708))
+-   **overlay:** ship Overlay API v2 ([67b5d1b](https://github.com/adobe/spectrum-web-components/commit/67b5d1b02e88dcb5b0b79b5a6c5ead92ad1a5aca))
+-   shared pkg versions, devmode define warning, registry-conflicts docs ([6e49565](https://github.com/adobe/spectrum-web-components/commit/6e4956519b845fa8127f8032948b625c252ef7a6))
+
+### Performance Improvements
+
+-   reduce render cycles when managing "dir" attribute ([7b28309](https://github.com/adobe/spectrum-web-components/commit/7b28309ff2b977ad8a61d9e6c41737abfbb111bf))
+
 # [0.37.0](https://github.com/adobe/spectrum-web-components/compare/v0.36.0...v0.37.0) (2023-08-18)
 
 ### Features

@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.38.0 (2023-08-29)
+
+### Bug Fixes
+
+-   add Grid pattern ([341f493](https://github.com/adobe/spectrum-web-components/commit/341f4932087487be47bde355d1b0894886ed44ad))
+-   add support for Element Resolution ([d6a65d0](https://github.com/adobe/spectrum-web-components/commit/d6a65d0ce26da864729e707f62683585fe5e49c4))
+-   added default focus in focus group ([cd59f18](https://github.com/adobe/spectrum-web-components/commit/cd59f180afacaa719c01a8001bf8a656b4bbcb80))
+-   added Mutation Observer in the tags workflow ([3af1861](https://github.com/adobe/spectrum-web-components/commit/3af1861a09aa7eac6cd4eb0dbb7cce8ab057efec))
+-   convert the langage resolution workflow to a Reactive Controller ([b7781db](https://github.com/adobe/spectrum-web-components/commit/b7781db820620688f97a40225fb17a10e7881178))
+-   ensure reactivity of resolved language ([5863a15](https://github.com/adobe/spectrum-web-components/commit/5863a155262d6ba6898f82bff49aed55a6eae4f4))
+-   leverage Color Controller to unify color interface across packages ([fb71690](https://github.com/adobe/spectrum-web-components/commit/fb7169066fd4f15aee594c463cc4cdbf7f550a5e))
+-   manage updated node types ([0517fc1](https://github.com/adobe/spectrum-web-components/commit/0517fc19536325332543f95f5ecc0d6cb0c786c5))
+-   **reactive-controllers:** functionality debugged ([f98013b](https://github.com/adobe/spectrum-web-components/commit/f98013bceced7e4d2759c698cdff7f9fe1d43c68))
+-   **reactive-controllers:** handleItemMutation ([d0e32a2](https://github.com/adobe/spectrum-web-components/commit/d0e32a255483c605bbbfc804f1c56c401b00ffe9))
+-   removed disabled property check ([816732f](https://github.com/adobe/spectrum-web-components/commit/816732f03fb271dbefe3ac7a0412cd5ec6479635))
+-   removed mutation controller from tags and added to focusgroup ([aaa1bc0](https://github.com/adobe/spectrum-web-components/commit/aaa1bc04437585a0d8f30e885e076868ecb1defa))
+-   **table:** add resize controller to TableBody for a11y reasons ([85dd406](https://github.com/adobe/spectrum-web-components/commit/85dd4066328afeacf978acc3fc9acd57436900a1))
+-   **tags:** corner cases handled ([8ec6b6a](https://github.com/adobe/spectrum-web-components/commit/8ec6b6a0288629e1006b5d1c3ee17d162dd97d23))
+-   **tags:** delete functionality working ([60e6c2e](https://github.com/adobe/spectrum-web-components/commit/60e6c2e92e30c833d572d34ad6d41e94568a40d6))
+-   **tags:** documented the function ([f97c7a7](https://github.com/adobe/spectrum-web-components/commit/f97c7a77eb1dce32f8ec3202fe839dd0a9f0fdc8))
+-   **tags:** handled corner cases ([55a95b7](https://github.com/adobe/spectrum-web-components/commit/55a95b757baf89cab4261d50c2cf279471e7ef01))
+-   **tags:** performed the suggested changes ([6e3ef36](https://github.com/adobe/spectrum-web-components/commit/6e3ef36e8f423f08c2537eb2d075bec4118f2e86))
+-   **tags:** removed comment ([771dc0e](https://github.com/adobe/spectrum-web-components/commit/771dc0e63617e29c6777eb7bf3470c46ac9f7d17))
+-   **tags:** some extra chnages ([45f1a9d](https://github.com/adobe/spectrum-web-components/commit/45f1a9d846e8d717bdd3fae999639b2419d53fc3))
+-   **tags:** some minor chnages ([36886fc](https://github.com/adobe/spectrum-web-components/commit/36886fc1fabecf23f99c5f23e8a9eae718f981b1))
+-   **tags:** suggested changes done ([8aca49e](https://github.com/adobe/spectrum-web-components/commit/8aca49e5249af235f20cf83cfee156336b3ca76f))
+
+### Features
+
+-   add reactive controllers package ([d434e9d](https://github.com/adobe/spectrum-web-components/commit/d434e9df151991bac031a0e8c1bde10ebecb5047))
+-   include all Dev Mode files in side effects ([f70817c](https://github.com/adobe/spectrum-web-components/commit/f70817cc15db6dcf5cc1de2d82b4f7b0c80b1251))
+-   modified .selected to make <sp-action-group> a controllable component ([#2006](https://github.com/adobe/spectrum-web-components/issues/2006)) ([4c69b25](https://github.com/adobe/spectrum-web-components/commit/4c69b251fdf09fe898ce98482881e647b857205d))
+-   **overlay:** ship Overlay API v2 ([67b5d1b](https://github.com/adobe/spectrum-web-components/commit/67b5d1b02e88dcb5b0b79b5a6c5ead92ad1a5aca))
+-   **picker:** support responsive delivery of menu ([20031d1](https://github.com/adobe/spectrum-web-components/commit/20031d1b42b36cdaa129a25ee70eb2bcbcdbdb5e))
+
 # [0.37.0](https://github.com/adobe/spectrum-web-components/compare/v0.36.0...v0.37.0) (2023-08-18)
 
 ### Features
