@@ -25,16 +25,28 @@ export default {
 };
 
 export const Default = (): TemplateResult => {
+    // Create elements using document.createElement
+    const actionBar = document.createElement('sp-action-bar');
+    actionBar.setAttribute('open', '');
+    const actionButtonEdit = document.createElement('sp-action-button');
+    actionButtonEdit.setAttribute('slot', 'buttons');
+    actionButtonEdit.setAttribute('label', 'Edit');
+    const iconEdit = document.createElement('sp-icon-edit');
+    iconEdit.setAttribute('slot', 'icon');
+    actionButtonEdit.appendChild(iconEdit);
+    actionBar.appendChild(actionButtonEdit);
+
+    const actionButtonMore = document.createElement('sp-action-button');
+    actionButtonMore.setAttribute('slot', 'buttons');
+    actionButtonMore.setAttribute('label', 'More');
+    const iconMore = document.createElement('sp-icon-more');
+    iconMore.setAttribute('slot', 'icon');
+    actionButtonMore.appendChild(iconMore);
+    actionBar.appendChild(actionButtonMore);
+
+    // Return a template result with the created elements
     return html`
-        <sp-action-bar open>
-            2 selected
-            <sp-action-button slot="buttons" label="Edit">
-                <sp-icon-edit slot="icon"></sp-icon-edit>
-            </sp-action-button>
-            <sp-action-button slot="buttons" label="More">
-                <sp-icon-more slot="icon"></sp-icon-more>
-            </sp-action-button>
-        </sp-action-bar>
+        ${actionBar}
     `;
 };
 
